@@ -19,7 +19,7 @@ Kitchen Quest is a web application designed to help users discover and search fo
 ## Getting Started
 1. **Clone the Repository**: 
    ```bash
-   git clone [https://github.com/muhammedmueen/kitchen-quest.git](https://github.com/muhammedmueen/Kitchen-Quest.git)
+   git clone https://github.com/muhammedmueen/Kitchen-Quest.git
    ```
 2. **Open the Project**: Navigate to the project directory and open `index.html` or `recipes-search/index.html` in your web browser.
 3. **Explore the Features**: Use the navigation menu to explore different sections of the application.
