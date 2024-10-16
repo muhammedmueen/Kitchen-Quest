@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="/assets/css/styles.css">
   <link rel="shortcut icon" href="/assets/img/KQ-logo.png" type="image/x-icon">
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
@@ -20,14 +21,14 @@
       <a href="#" class="nav__logo">
         <img id="logo" style="width: 196px;" src="/assets/img/index2.png" alt="">
       </a>
-      <div class="nav__menu" id="nav-menu">
-        <ul class="nav__list">
-          <li class="nav__item"><a href="/index.html" class="nav__link active-link">Home</a></li>
-          <li class="nav__item"><a href="/index.html" class="nav__link">About</a></li>
-          <li class="nav__item"><a href="/index.html" class="nav__link">Services</a></li>
-          <li class="nav__item"><a href="/index.html" class="nav__link">Blog</a></li>
-          <li class="nav__item"><a href="/index.html" class="nav__link">Recipes</a></li>
-          <li class="nav__item"><a href="/index.html" class="nav__link">Contact us</a></li>
+      <div class="nav__menu w-full flex justify-center m-4 fixed top-0 text-sm" id="nav-menu">
+        <ul class="nav__list flex flex-row w-[60%] justify-between">
+          <li class="nav__item hover:underline"><a href="../index.html" class="nav__link active-link">Home</a></li>
+          <li class="nav__item hover:underline"><a href="../index.html" class="nav__link">About</a></li>
+          <li class="nav__item hover:underline"><a href="../index.html" class="nav__link">Services</a></li>
+          <li class="nav__item hover:underline"><a href="../index.html" class="nav__link">Blog</a></li>
+          <li class="nav__item hover:underline"><a href="../index.html" class="nav__link">Recipes</a></li>
+          <li class="nav__item hover:underline"><a href="../index.html" class="nav__link">Contact us</a></li>
         </ul>
       </div>
       <!-- Add this inside your nav menu -->
@@ -42,7 +43,7 @@
   </header>
 
 
-  <div class="container">
+  <div class="container w-full mx-auto mt-10">
     <div class="meal-wrapper">
       <div class="meal-search">
         <h2 class="title">Find Meals For Your Ingredients</h2>
